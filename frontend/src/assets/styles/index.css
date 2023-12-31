@@ -19,9 +19,13 @@ main {
 .product-title {
   height: 2.5em; /* Set a fixed height */
   overflow: hidden; /* Hide overflow content */
-  text-overflow: ellipsis; /* Add ellipsis for long text */
+  text-overflow: ellipsis; /* Add ellipsis for long text (...) */
   white-space: nowrap; /* Prevent wrapping */
 }
+/* .product-title:hover{
+  overflow: visible; 
+  white-space: normal; 
+  } */
 
 table td,
 table th {
