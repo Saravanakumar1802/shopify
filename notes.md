@@ -47,5 +47,10 @@ Inside this route, there is another <Route> component with `index={true}` and pa
 
 6. Button: This component represents a Bootstrap button. It can be used to create interactive elements that trigger actions when clicked.
 
-## --------------------------------------------------------------------------------------------------------
+## -------------------------------------------Backend-------------------------------------------------------------
+`"client":"npm start --prefix frontend`,  ->[prefix] first it will go to the fronend Folder and run the cmd.
+  "dev":"concurrently \"npm run server\" \"npm run client\"" -> run both f-end and b-end using concurrently package.
 
+`process.exit(1):`
+
+--> This line exits the Node.js process with a status code of 1. A non-zero status code typically indicates an error or an abnormal termination. It's a common practice to use a non-zero status code to signal that an error occurred.
